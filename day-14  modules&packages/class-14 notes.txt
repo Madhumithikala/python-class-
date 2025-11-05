@@ -1,0 +1,73 @@
+04/11/2025
+---------------
+
+modules & packages:
+
+what is module?
+
+Each and Every python file acting as module
+
+inbuilt modules:
+---------------------
+math.python
+random.python
+json.python
+csv.python
+os.python
+
+Example:
+----------
+data.py
+--------
+
+eid=101
+def login():
+    print("Login Success")
+	class account:
+	        pass
+	print(eid)  #101
+	
+one.py
+--------
+import data
+#print(eid) #name error
+print (data.eid) #101
+
+#How to use module:
+-------------------------------
+
+import module1,module2
+
+module1.member1
+module2.member2
+
+#from module import module1,module2,module3,
+
+
+MathEx.py
+
+from math import pi,sqrt,ceil,floor
+print(pi)
+print(sqrt(100))
+print(ceil(5.2))
+print(floor(5.2))
+
+# write a program to generate 10 -4 digit OTP numbers?
+
+# import Random
+
+from random import randint
+ for num in range(10):
+             print(randint(1000,9999))
+			 
+
+
+
+
+
+
+
+
+	
+
+

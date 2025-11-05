@@ -1,0 +1,21 @@
+day-2 python class
+
+what is python?
+python is a general purpose of highlevel interpreted programming language.
+
+compiler/interpretetor=convert highlevel code to lowlevel code(human readable format code to machine readable binary format code)
+
+compiler:
+
+ -> analyze source code if there is no syntax errors
+ -> it compiles and executes performs line to line execution at on time.
+ -> if any syntax error occurs it stops compilation process(no output).
+ 
+ interpretetor:
+ 
+ analyze source code if there is no syntax error
+ if any syntax error is there it executes line by line
+ 
+ 
+ 
+

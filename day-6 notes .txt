@@ -1,0 +1,89 @@
+Range Data Type:
+
+range() is a built-in function that generates an immutable sequence of numbers. 
+It is commonly used in for loops to iterate a specific number of times or over a sequence of integers.
+
+ ->generate sequence 
+Syntax: range([start],end,[step])
+
+Example:1
+r=range(10)
+print(r)
+print(type(r))
+
+1.write a program to print  1 to 10?
+Ans:
+for num in range(1,11-1,1):
+print(num)
+
+2.write a program to print  1 to 125?
+Ans:
+for num in range(1,125,5):
+    print(num)
+	
+	
+3.write a program to print 100,99,98,......10?
+Ans:
+numbers=range(100,9,-1)
+for num in numbers:
+    print (num)
+
+4.write a program to print 5,10,15,......50?
+Ans:
+numbers=range(5,51,50)
+for num in numbers:
+    print(num)
+
+
+python Operators:
+
+Arithmatic op:+,-,*,/,%,**,//
+
+logical operator: And / Or
+
+relational Op: <   ,  >  ,   ==
+               <=  ,  >=
+			   
+unary op:Not
+
+special op:  
+	   Membership op: in, Not in
+	   Identity op: is, isNot
+	   
+------------------------------------------------------------------------------------------	   
+24/10/2025 class:-
+
+ Membership Op: in & not 
+ To verify  Element present in sequence (or) Not 
+            value
+			object
+			item
+ 
+ Example:
+ enames=["RG","SG","PG","NM")
+ 
+
+Identity Op:
+  -> Address comparision object
+  
+  is,isNot  => address comparision
+         == -> content comparision
+		 
+
+control flow statements:
+-------------------------------------------------
+1) condition flow       => if,if-else,if-elif,if-elif-else statements
+
+note: In python there is no switch statements
+
+2) iterative statements  => for loop, ehile 
+
+note: In python there is no do-while loop
+
+if - condition St:
+
+
+		 
+  
+
+			   
