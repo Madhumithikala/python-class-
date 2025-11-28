@@ -63,6 +63,16 @@ from random import randint
 
 
 
+06/11/2025
+--------------
+json:
+
+load     dump  -> files
+
+load-> json string to python object convert used.
+
+dump-> python object to json string convert used.
+
 
 
 

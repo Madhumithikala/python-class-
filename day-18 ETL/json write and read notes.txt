@@ -1,0 +1,74 @@
+10/11/2025
+-------------
+// Writing data to a CSV file 
+EX:
+
+import csv
+fp=open('emp.csv','w', newline='')
+cw=csv.writer(fp)
+cw.writerow(["eid","ename","esal"])
+data=[
+        (101,'RG',45000),
+		(102,'SG',50000),
+        (103,'AG',55000),
+        (104,'BG',60000)
+     ]
+cw.writerows(data)
+print("successful")
+fp.close()
+
+what is csv ?
+Comma-Separated Values.
+
+ETL-Task:
+--------------
+Rest API Info:
+usage:fetch  all users
+Rest API URL:https://jsonplaceholder.typicode.com/users
+method:GET
+Access Type:Public
+
+Task: Invoke Rest API;
+    write uid, uname,email,city
+	      into a) new json 
+		        b)new csv file
+				c)new user table  -Mysql
+				d) new user collection -Mango DB
+	      
+
+Basic questions: Json 
+
+How to invoke Rest API?
+how to handle Json file?
+what is json?
+how to handle csv files?
+csv vs json format?
+how to handle file with path?
+
+
+ETL means: Extract Transform Load .
+
+----------------------------------------------------------
+11/11/2025
+------------------
+ES6 new features:
+-----------------
+1.let
+2.class
+3.${}
+4.()=>{}
+5. ...
+6. [] new methods
+7. import/export
+8. destructing -> []    {}
+9. asynchronous Router
+    a)call back
+	b)promise
+	c)async & await
+10. clouser
+11. set
+
+
+
+
+		

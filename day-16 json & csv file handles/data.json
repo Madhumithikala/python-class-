@@ -1,0 +1,38 @@
+[
+    {
+        "eid": 1,
+        "ename": "Alice",
+        "avail": true,
+        "grade": null
+    },
+    {
+        "eid": 2,
+        "ename": "Bob",
+        "avail": false,
+        "grade": null
+    },
+    {
+        "eid": 3,
+        "ename": "Charlie",
+        "avail": true,
+        "grade": null
+    },
+    {
+        "eid": 4,
+        "ename": "Rahul",
+        "avail": true,
+        "grade": null
+    },
+    {
+        "eid": 5,
+        "ename": "Gandhi",
+        "avail": true,
+        "grade": null
+    },
+    {
+        "eid": 6,
+        "ename": "priyanka",
+        "avail": true,
+        "grade": null
+    }
+]

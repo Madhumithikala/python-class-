@@ -1,0 +1,12 @@
+['id','uname', 'loc', 'gender']
+*,*,*,*
+[101,'sonia', 'Ben', Female]
+*,*,*,*
+[102,'madhu', 'Bez', Male]
+*,*,*,*
+[103,'priyanka', 'kng', Female]
+*,*,*,*
+[104,'sai', 'Bez', Male]
+*,*,*,*
+[105,'kajal','Ben', Female]
+*,*,*,*

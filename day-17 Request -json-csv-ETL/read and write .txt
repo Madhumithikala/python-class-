@@ -1,0 +1,28 @@
+what is Rest API? 
+Backend developers are develop Rest API.
+
+How to invoke rest API?
+using  requests  module.
+
+How to test Rest API?
+using postman tool.
+
+HTTP Method:        HTTP status code
+GET                  1xx                      
+POST                 2xx
+PUT                  3xx
+DELETE               4xx
+PATCH                5xx
+ 
+ usage:fetch all users
+ Rest API URL:-------
+ Method:GET
+ Request Fields:None
+ Acess Type: public
+ 
+
+
+
+
+
+

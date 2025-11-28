@@ -1,0 +1,92 @@
+python class: 12/11/2025
+
+CRUD OPERATIONS USING CONNECTIVITY OF MYSQL:
+----------------------------------------------------
+example: insert row :
+-----------------------
+import mysql.connector
+dbcon=None 
+cursor=None 
+try:
+    dbcon=mysql.connector.connect(host='localhost',
+                                  user='root',
+                                  password='root',
+                                  database='db4') 
+    print(dbcon.is_connected())
+    cursor=dbcon.cursor()
+    sql_st='''
+           insert into employees
+           values
+           (101,"Rahul","rg@gmail.com","Bangalore");
+           '''
+    cursor.execute(sql_st)
+    dbcon.commit()
+    print("Data Inserted Successfully!")
+except mysql.connector.Error as err:
+    print(err)
+finally:
+    cursor.close()
+    dbcon.close()
+
+------------------------------
+insert multiple rows:
+----------------------------
+import mysql.connector
+dbcon=None 
+cursor=None 
+try:
+    dbcon=mysql.connector.connect(host='localhost',
+                                  user='root',
+                                  password='root',
+                                  database='db4') 
+    print(dbcon.is_connected())
+    cursor=dbcon.cursor()
+    sql_st='''
+           insert into employees (eid,ename,email,city) values(%s,%s,%s,%s);
+           '''
+    employees=[
+        (102,"sahul","sa@gmail.com","wayanad"),
+        (103,"madhu","madhu@gmail.com","hyderabad"),
+        (104,"balaji","balaji@gmail.com","new delhi"),
+        (105,"gnaana","gnana@gmail.com","Bengalore")
+    ]
+        
+    cursor.executemany(sql_st,employees)
+    dbcon.commit()
+    print("Data Inserted Successfully!")
+except mysql.connector.Error as err:
+    print(err)
+finally:
+    cursor.close()
+    dbcon.close()
+	
+	
+--------------------------	
+read rows:
+---------------------------
+
+import mysql.connector
+dbcon=None 
+cursor=None 
+try:
+    dbcon=mysql.connector.connect(host='localhost',
+                                  user='root',
+                                  password='root',
+                                  database='db4') 
+    print(dbcon.is_connected())
+    cursor=dbcon.cursor()
+    sql_st='''
+           SELECT * FROM employees 
+           '''   
+    cursor.execute(sql_st)
+    employees=cursor.fetchall();
+    #print (employees)
+    for emp in employees:
+        print(emp[1])
+    dbcon.commit()
+except mysql.connector.Error as err:
+    print(err)
+finally:
+    cursor.close()
+    dbcon.close()
+	
